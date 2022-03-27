@@ -1,68 +1,27 @@
 # React Typescript example Project with Axios and Web API
 
-Build a React Typescript and Axios CRUD example to consume Web API with Router & Bootstrap 4.
+Build a React Typescript and Axios example to consume Web API with Router & React-Bootstrap.
 
-React Tutorial Application in that:
-- Each Tutorial has id, title, description, published status.
-- We can create, retrieve, update, delete Tutorials.
-- There is a Search bar for finding Tutorials by title.
+Functions:
+- List all characters view
+- Display an indicator to know if a character is in favorites list
+- Filter characters by name, status or gender
+- Detail character’s view
+- Display a button to add the character to a favorites list, in case the character is in favorites list it will be removed from favorites list
+- 404 Page
 
-![react-typescript-project-axios-crud-demo](react-typescript-project-axios-crud-demo.png)
+Rules
+Build the frontend using:
+- React with Hooks
+- Context as state management tool
+- react-bootstrap library
+- Typescript
 
-For instruction, please visit:
-> [React Typescript example Project with Axios and Web API](https://bezkoder.com/react-typescript-axios/)
-
-Related Posts:
-> [React Hooks Typescript example Project with Axios and Web API](https://bezkoder.com/react-typescript-api-call/)
-
-> [React (Javascript) CRUD example to consume Web API](https://bezkoder.com/react-crud-web-api/)
-
-> [React Redux CRUD App example with Rest API](https://bezkoder.com/react-redux-crud-example/)
-
-> [React (Hooks) CRUD example to consume Web API](https://bezkoder.com/react-hooks-crud-axios-api/)
-
-> [React Table example: CRUD App with react-table v7](https://bezkoder.com/react-table-example-hooks-crud/)
-
-Using Material UI instead of Bootstrap:
-> [React Material UI examples with a CRUD Application](https://bezkoder.com/react-material-ui-examples-crud/)
-
-More Practice:
-> [React Pagination example](https://bezkoder.com/react-pagination-material-ui/)
-
-> [React File Upload example](https://bezkoder.com/react-file-upload-axios/)
-
-> [React JWT Authentication & Authorization example](https://bezkoder.com/react-jwt-auth/)
-
-> [React + Redux: JWT Authentication & Authorization example](https://bezkoder.com/react-redux-jwt-auth/)
-
-Fullstack with Node.js Express:
-> [React.js + Node.js Express + MySQL](https://bezkoder.com/react-node-express-mysql/)
-
-> [React.js + Node.js Express + PostgreSQL](https://bezkoder.com/react-node-express-postgresql/)
-
-> [React.js + Node.js Express + MongoDB](https://bezkoder.com/react-node-express-mongodb-mern-stack/)
-
-Fullstack with Spring Boot:
-> [React.js + Spring Boot + MySQL](https://bezkoder.com/react-spring-boot-crud/)
-
-> [React.js + Spring Boot + PostgreSQL](https://bezkoder.com/spring-boot-react-postgresql/)
-
-> [React.js + Spring Boot + MongoDB](https://bezkoder.com/react-spring-boot-mongodb/)
-
-Fullstack with Django:
-
-> [React.js + Django Rest Framework](https://bezkoder.com/django-react-axios-rest-framework/)
-
-Serverless:
-> [React Firebase CRUD App with Realtime Database](https://bezkoder.com/react-firebase-crud/)
-
-> [React Firestore CRUD App example | Firebase Cloud Firestore](https://bezkoder.com/react-firestore-crud/)
-
-Integration (run back-end & front-end on same server/port)
-> [How to integrate React.js with Spring Boot](https://bezkoder.com/integrate-reactjs-spring-boot/)
-
-> [Integrate React with Node.js Express on same Server/Port](https://bezkoder.com/integrate-react-express-same-server-port/)
-
+Additional JS libraries:
+- axios
+Axios is a simple promise based HTTP client for the browser and node.js. Axios provides a simple to use library in a small package with a very extensible interface.
+- react-icons
+Include popular icons in your React projects easily with react-icons, which utilizes ES6 imports that allows you to include only the icons that your project is using.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
